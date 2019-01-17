@@ -1,0 +1,50 @@
+/*///////////////////////////////////////   FOOTER   /////////////////////////////////////////////*/
+
+footer {
+    margin-top: 0px;
+    background-color:#de8787;
+    padding: 15px;
+  
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    font-family: "Open sans, san serif";
+    color:white;
+}
+
+footer h4{
+    text-align: center;
+    color: white;
+    justify-content: center; 
+}
+/*///////////////////////////////////////   BTN VOLTAR AO TOPO   ///////////////////////////////////////*/
+
+.btn-topo{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: #de8787;
+    border-radius: 17px;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 52px;
+    display: none;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+.btn-topo:hover{
+    border: 3px solid #de8787;
+    background-color:transparent;
+    padding-top: 2px;
+    color: #de8787;
+
+}

@@ -1,0 +1,383 @@
+/*///////////////////////////////////////   SERVIÇOS   /////////////////////////////////////////////*/
+
+#servicos{
+    position: relative;
+    padding-top: 3.906%;
+    width: 100%;
+  
+}
+
+.container{
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bloco{
+    
+    margin-top: 60px;
+    margin-left:1.5%;
+    transition: box-shadow 0.2s linear;
+    width: 18%;
+    min-width: 220px;
+    height: 27.5%;
+    padding: 1.5% 0;
+    border-radius: 30px;
+    border: 0.5px rgba(95, 95, 95, 0.4) solid;
+    transition: transform .9s;
+    background-color: white;
+}
+
+.bloco:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+    transform: scale(1.1);
+}
+
+#servicos h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open sans, san serif";
+    color: #4e4d4f;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+#servicos h2:hover::after{
+    width: 10%;
+    
+}
+
+#servicos h2::after{
+    content: "";
+    display: table;
+    width: 8%;
+    height: 2px;
+    margin: 5px auto 0;
+    background-color: #de8787;
+    transition: .3s;
+}
+
+.container .bloco i{
+   
+   font-size: 3em;
+   text-align: center;
+   color: #de8787; 
+   
+
+}
+
+
+
+.container .bloco h3{
+    padding-top: 3%;
+    text-align: center;
+    color: #4e4d4f;
+    text-transform: uppercase;
+     font-family: "Open sans, san serif";
+}
+
+
+.container .bloco p{
+    text-align: center;
+    left: -11%;
+    font-family: "Open sans, san serif";
+    font-size: 16px;
+    line-height: 1.3;
+    color: #4e4d4f;
+    padding: 12% 10%;
+    
+}
+#font{
+    text-align: center;
+    left: -11%;
+    font-family: "Open sans, san serif";
+    font-size: 22px;
+    line-height: 1.3;
+    color: #4e4d4f;
+    height: 200px;
+ 
+}
+#font1{
+    text-align: center;
+    left: -11%;
+    font-family: "Open sans, san serif";
+    font-size: 17px;
+    line-height: 1.3;
+    color: #4e4d4f;
+    height: 200px;
+ 
+}
+
+
+/*///////////////////////////////////////   TRABALHOS   /////////////////////////////////////////////*/
+
+#trabalhos{
+    position: relative;
+    padding-top: 50px;
+}
+
+#trabalhos h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open sans, san serif";
+    color: #4e4d4f;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#trabalhos h3:hover::after{
+    width: 10%;
+    
+}
+
+#trabalhos h3::after{
+    content: "";
+    display: table;
+    width: 8%;
+    height: 2px;
+    margin: 5px auto 0;
+    background-color: #de8787;
+    transition: .3s;
+}
+
+#trabalhos p{
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+    font-family: "Open sans, san serif";
+}
+
+/*///////////////////////////////////////   BANNER   /////////////////////////////////////////////*/
+
+#banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url('../img/banner5.png');
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+#banner h2{
+    
+    width: 70%;
+    color:white;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    padding: 6% 5%;
+    font-family: "Open sans, san serif";
+    top: -120px;
+    position: relative;
+
+}
+
+#confira {
+    background-color:#de8787;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 18%;
+    min-width: 220px;
+    padding-top: 10px;
+    left: 70%;
+    margin-top: 70px;   
+    position: relative;
+}
+
+#confira:hover{
+   border: 3px solid #de8787;
+   color: white;
+   background-color:transparent;
+   font-size: 13px;
+}
+
+/*///////////////////////////////////////   SOBRE   /////////////////////////////////////////////*/
+
+#sobre{display: block; width: 100%;}
+
+#sobre h2{
+    text-align: center;
+    color: #4e4d4f;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#sobre h2:hover::after{
+    width: 6%;
+    
+}
+
+#sobre h2::after{
+    content: "";
+    display: table;
+    width: 4%;
+    height: 2px;
+    margin: 5px auto 0;
+    background-color: #de8787;
+    transition: .3s;
+}
+
+#sobre p{
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+}
+
+
+#sobre .container-sobre p{
+    font-size: 19px;
+    line-height: 1.6;
+    color: gray;
+    width: 90%;
+    max-width: 700px;
+    align-items: center;
+    background: white;
+    padding: 5% 5%;
+    text-align: center;  
+    z-index: 1;
+    margin-top: 50px;
+   border-radius: 30px;
+    
+}
+
+
+
+/*///////////////////////////////////////   CONTATO   /////////////////////////////////////////////*/
+
+#contato {
+    background-image: url(../img/la.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding-bottom: 60%;
+    position: relative;
+    margin-top: 150px;
+    display: block;
+   
+    
+}
+
+#contato h3{
+   
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    color:white;
+    font-family: "Open sans, san serif";
+}
+
+
+form, input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 19px;
+    border-radius: 5px;
+    font-family: "Open sans, san serif";
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+input[type="submit"]{
+    background-color: #de8787;
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 2%;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    width: 40%;
+    min-width: 100px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+input[type="submit"]:hover{
+    border: 3px solid #de8787;
+    background-color:transparent;
+    color: white;
+}
+
+
+#contato form{
+    background: rgba(0,0,0,0.6);
+    padding: 3% 1%;
+    margin-top: -390px;
+    margin-left:31%;
+    margin-right:26.5%;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 0;   
+    width: 80%;
+    max-width: 550px; 
+   
+    
+}
+
+#contato div{
+    width: 80%;
+    max-width: 550px; 
+    padding: 5% 1%;
+    background: rgba(0,0,0,0.6);
+    border-radius: 7px; 
+    margin-left:31%;
+    margin-right:25.5%;
+    top: 675px;
+    position: relative;
+    
+
+}
+
+#contato li{
+    width: 100%;
+    font-size: 23px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+#contato h2{
+    padding-top: 60px;
+    font-size: 37px;
+    text-align: center;
+    color:#de8787;
+    
+
+}
+
+#contato ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contato li a{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    
+     
+}
+
+#contato li a:hover{
+    color: #de8787;
+}

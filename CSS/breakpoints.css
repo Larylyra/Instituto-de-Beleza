@@ -1,0 +1,498 @@
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+    
+    #contato form{    
+          top: 80px;
+          position: relative;
+          width: 100%;
+          right: 3%;    
+      }
+  
+      #contato div{
+          margin-top:-100px;
+          width: 100%;
+          right: 3%;    
+      }
+  
+}
+
+@media screen and (max-width: 951px){ 
+    #contato {
+        background-image: url(../img/la.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding-bottom: 60%;
+        position: relative;
+        margin-top: 150px;
+        display: block;
+       
+        
+    }
+
+    #inicio{
+        padding:0px;
+    }
+
+
+    #inicio #nav{
+        height: 55px;
+        background: #de8787;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+   #inicio #nav.mudaCor{
+        width: 100%;
+        height: 60px;
+        right: 0;
+        left: 0;
+        margin-top: -0.5em;
+        transition: all ease .5s;
+        background-color:#de8787;
+        z-index: 100;
+    }
+    
+    
+    #inicio #nav p{
+        margin-top: -15px;
+    }
+
+    #inicio .menu-mobile{
+        display: block;
+    }
+
+    #inicio nav{
+        position: absolute;
+        width: 100%;
+        height: cal(100vh 50px);
+        top: 60px;
+        right:-100%;
+        transition: 0.5s;
+        background:#de8787;
+    }
+
+    #inicio nav.active{
+        top: 55px;
+        right: 0;
+    }
+
+    #inicio nav ul{
+        display: block;
+        text-align: center;
+        margin: 0;   
+    }
+
+    #inicio nav ul li a{
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        padding: 0;
+        margin: 0;
+    }
+
+    #nav a:hover::after{
+        width: 6%;
+    } 
+
+    #servicos .bloco{
+        margin-left: 15%;
+    }
+
+    #banner .frase{
+        font-size: 25px;
+        width: 70%;
+        text-align: center;
+        padding: 9% 5%;
+        margin-top: -20px;
+        left: 130px;
+        
+    }
+
+    #confira{
+        margin-left: -290px;
+        z-index: 9;
+        position: relative;
+    }
+    
+    #contato{
+         padding-top: 500px;
+         background-size: 100% 200%;
+         height: 1200px;
+           
+    }
+
+    #contato h3{
+        position: relative;
+       top: -500px;
+       padding-bottom: 20px;
+       
+    }
+
+    #contato form{
+        margin-top:-350px;
+        position: relative;
+        width: 100%;
+        right: 100px;
+      
+    }
+
+    #contato div{
+        margin-top:-630px;
+        width: 100%;
+        right: 100px;
+    }  
+}
+
+@media screen and (min-width: 750px) and (max-width: 950px){
+    
+ #nav .logo ,img{
+    margin-top: -33px;
+    }
+
+
+    #contato {
+        background-image: url(../img/la.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding-bottom: 60%;
+        position: relative;
+        margin-top: 150px;
+        display: block;
+       
+        
+    }
+
+    #servicos .bloco{
+        margin-left: 10%;
+    }
+
+    #banner .frase{
+        width: 90%;
+        text-align: center;
+        padding: 9% 0%;
+        left: 50px;
+        margin-top: -20px;
+        margin-left: 0;
+    }
+
+    #confira{
+        width: 18%;
+        min-width: 220px;
+        top: 40px;
+        margin-left: -250px;
+        z-index: 999;
+        position: relative;
+    }
+
+    #servicos .bloco{
+        margin-left: 15%;
+    }
+
+    #contato form{
+        top: 60px;
+        position: relative;
+        width: 100%;
+        right: 15%;
+    }
+
+    #contato div{
+        margin-top:-600px;
+        width: 100%;
+        right: 15%;   
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 749px){
+    #nav .logo ,img{
+        margin-top: -33px;
+        }
+    
+
+    .hero h1, strong{
+        font-size: 2em;
+        width: 380px;
+    }
+
+    .hero h2{
+        font-size: 2.3em;
+    }
+
+    #contato {
+        background-image: url(../img/la.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding-bottom: 60%;
+        position: relative;
+        margin-top: 150px;
+        display: block;
+       
+        
+    }
+
+    #banner .frase{
+        font-size: 22px;
+        width: 90%;
+        text-align: center;
+        padding: 9% 5%;
+        left: 50px;
+        margin-top: -20px;
+    }
+
+    #confira{  
+        width: 18%;
+        min-width: 220px;
+        top: 20px;
+        margin-left: -210px;
+        z-index: 999;
+        position: relative;
+    }
+
+    #servicos .bloco{
+        margin-left: 5%;
+    }
+    
+    #contato form{
+        right: 170px;
+        top: 130px;      
+    }
+
+    #contato div{   
+        right: 170px;
+       width: 100%;
+        margin-top:-620px;
+    }   
+}
+
+@media screen and (min-width: 421px) and (max-width: 549px){
+    #nav .logo ,img{
+        margin-top: -33px;
+    }
+    
+
+    .hero h1, strong{
+        width: 350px;
+        font-size: 1.8em;
+    }
+
+    .hero h2{
+        font-size: 2em;
+    }
+
+    #contato {
+        background-image: url(../img/la.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding-bottom: 60%;
+        position: relative;
+        margin-top: 150px;
+        display: block;
+       
+        
+    }
+
+    #banner .frase{
+        font-size: 22px;
+        width: 90%;
+        text-align: center;
+        margin-right: 0;
+        left: 0px;
+        margin-top: -10px;        
+    }
+    
+    #confira{   
+        width: 18%;
+        min-width: 220px;
+        top: 40px;
+        margin-left: -190px;
+        z-index: 999;
+        position: relative;
+    }
+
+    #servicos .bloco{
+        margin-left: 22%;
+    }
+
+    #contato form{
+        right: 130px;
+        top: 130px;
+        position: relative;
+        width: 100%;      
+    }
+
+    #contato div{
+        right: 130px;
+        margin-top:-620px;
+        width: 100%;
+        margin-bottom:
+    }   
+}
+
+@media screen and (min-width: 359px) and (max-width: 420px){
+    #nav .logo ,img{
+        margin-top: -33px;
+        margin-left: 0px;
+        width: 250px;
+        height: 120px;
+    }
+    
+
+    .hero h1, strong{
+        width: 320px;
+        font-size: 1.7em;
+    }
+
+    .hero h2{
+        font-size: 1.6em;
+    }
+
+    #contato {
+        background-image: url(../img/la.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding-bottom: 60%;
+        position: relative;
+        margin-top: 150px;
+        display: block;
+       
+        
+    }
+
+    #banner .frase{
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+        padding: 9% 0%;
+        margin-top: 10px;
+        left: 15px;
+        position: relative;
+    }
+    
+    #confira{   
+        width: 18%;
+        min-width: 220px;
+        top: 30px;
+        margin-left: -190px;
+        z-index: 999;
+        position: relative;
+    }
+
+    #servicos .bloco{
+        margin-left: 22%;
+    }
+
+    .slider-wrapper{
+        margin-top: 50px;
+      
+    }
+
+    #contato form{
+        right: 31%;
+        top: 190px;      
+    }
+
+    #contato div{   
+        right: 31%;
+        margin-top:-650px;
+    }   
+}
+
+@media screen and  (min-width: 1px) and (max-width: 358px){
+    #nav .logo ,img{
+        position: relative;
+        margin-top: -33px;
+        left: -25px;
+        width: 210px;
+        height: 120px;
+    }
+    
+
+    .hero h1, strong{
+        width: 300px;
+        font-size: 1.6em;
+    }
+
+    .hero h2{
+        font-size: 1.5em;
+    }
+
+
+    #contato {
+        background-image: url(../img/la.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding-bottom: 60%;
+        position: relative;
+        margin-top: 150px;
+        display: block;
+       
+        
+    }
+
+    #banner{
+      position: relative;
+      top: -20px;
+    }
+
+    #banner .frase{
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+        padding: 9% 5%;
+        left: 20px;
+        margin-top: 10px;
+    }
+    
+    #confira{   
+        width: 18%;
+        min-width: 220px;
+        top: 45px;
+        
+        margin-left: -170px;
+        z-index: 999;
+        position: relative;
+    }
+        
+    #sobre{
+        position: relative;
+        top: 20px;
+    }
+      
+    #sobre .container-sobre p{
+        position: relative;
+        top: 20px;
+    }
+
+    #servicos .bloco{
+        margin-left: 15%;
+    }
+
+    .slider-wrapper{
+        margin-top: 50px;
+    }
+
+    #contato form{
+        right: 100px;
+        top: 160px;       
+    }
+
+    #contato div{
+        right: 100px;
+        margin-top:-630px;
+    }   
+
+    #contato li{
+        position: relative;
+        width: 100%;
+        font-size: 20px;
+        color: white;
+        margin-top: 30px;
+        text-align: center;
+    }
+  
+    main{
+       padding-bottom: -100px;  
+    }
+}
+
