@@ -378,7 +378,14 @@
     }
 
     #servicos .bloco{
-        margin-left: 22%;
+        margin-left: 20%;
+    }
+
+    #font1{
+        font-size: 16px;
+    }
+    #font{
+        font-size: 18px;
     }
 
     .slider-wrapper{
@@ -465,7 +472,14 @@
     }
 
     #servicos .bloco{
-        margin-left: 15%;
+        margin-left: 14%;
+    }
+
+    #font1{
+        font-size: 16px;
+    }
+    #font{
+        font-size: 18px;
     }
 
     .slider-wrapper{
