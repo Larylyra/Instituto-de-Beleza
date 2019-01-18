@@ -309,8 +309,16 @@
     }
 
     #servicos .bloco{
-        margin-left: 22%;
+        margin-left: 18%;
     }
+
+    #font1{
+        font-size: 14px;
+    }
+    #font{
+        font-size: 16px;
+    }
+
 
     #contato form{
         right: 130px;
@@ -378,14 +386,14 @@
     }
 
     #servicos .bloco{
-        margin-left: 20%;
+        margin-left: 18%;
     }
 
     #font1{
-        font-size: 16px;
+        font-size: 14px;
     }
     #font{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .slider-wrapper{
@@ -472,14 +480,14 @@
     }
 
     #servicos .bloco{
-        margin-left: 14%;
+        margin-left: 13%;
     }
 
     #font1{
-        font-size: 16px;
+        font-size: 14px;
     }
     #font{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .slider-wrapper{
